@@ -29,3 +29,8 @@ end)
 Section:NewSlider("jump", "jump y", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.jumppower = s
 end)--ARAB TEAM--
+
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-DemonHub-39515"))()

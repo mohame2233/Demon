@@ -1,0 +1,31 @@
+wait(o.1
+gane.Dtartrt@ul:SetCore("Sendnotification";
+Title = "تم تفعيل"
+Text = "demon تم تفعيل";  -- ARAB TEAM--
+Duration =S :
+
+
+
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("demon", "BloodTheme")
+local Tab = Window:NewTab("killer")
+local Section = Tab:NewSection("evil")
+Section:NewButton("Script evil", "script", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3casper/main/FlyGuiV3casper.txt"))()
+
+
+local Tab = Window:NewTab("killer")
+local Section = Tab:NewSection("evil")
+
+
+Section:NewSlider("speed", "speed y", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+
+Section:NewSlider("jump", "jump y", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.jumppower = s
+end)--ARAB TEAM--
